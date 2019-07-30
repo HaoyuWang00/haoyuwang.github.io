@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="styles/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+    <title>My test page</title>
+  </head>
+  <body>
+    
+    <h1>Home Page(h1)</h1>
+    <h2>News(h2)</h2>
+    <h3>APEC News(h3)</h3>
+    <h4>blah blah(h4)</h4>
+
+    <img src="C:\Users\Wang Haoyu\Desktop\web-project\test-file\images/bob-dylan.jpg" alt="My test image" width="400" height="300">
+    
+    <p>What do you like for dinner?</p>
+    <ul> 
+        <li>chicken rice?</li>
+        <li>econ rice?</li>
+        <li>or mala xiangguo?</li>
+    </ul>
+    <p>ha, don't tell me that you don't feed on them... </p>
+    <a href="https://www.google.com">Watch <strong>out</strong> babe!</a>
+
+    <button>Change user</button>
+    
+    <script src="scripts/main.js"></script> <!--just before the closing body tagThe reason we've put the <script> element near the bottom
+       of the HTML file is that HTML is loaded by the browser in the order it appears in the file. If the JavaScript is loaded first and 
+       it is supposed to affect the HTML below it, it might not work, as the JavaScript would be loaded before the HTML it is supposed to
+        work on. Therefore, putting JavaScript near the bottom of the HTML page is often the best strategy.-->
+  </body>
+</html>
+<!--要引用一个位于调用的 HTML 文件同级目录的目标文件，只需直接使用文件名，比如  my-image.jpg 。
+要引用一个子目录的文件，在路径前写下目录名并加一个斜杠，比如 subdirectory/my-image.jpg 。
+要引用一个位于调用的 HTML 文件的父级目录的目标文件，加上两个点。举个例子，如果 index.html 在  test-site 下面的一个子目录而 my-image.png 在 test-site 目录，你可以在 index.html 里使用 ../my-image.png 引用 my-image.png 。
+你可以随意组合以上方法，比如 ../subdirectory/another-subdirectory/my-image.png.-->
